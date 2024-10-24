@@ -8,15 +8,15 @@
   "checked-2.svg": "/checked-2-avH.svg",
   "checked.svg": "/checked-2N8.svg",
   "chevron-down.png": "/chevron-down-fHC.png",
-  "client.js": "/client.2213f73232cf75b8d611.js",
+  "client.js": "/client.3a266f6433bfcec07518.js",
   "credit-card-payment.svg": "/credit-card-payment-i84.svg",
   "dg-footer.png": "/dg-footer-tur.png",
   "entrypoints": {
     "client": {
       "js": [
-        "/runtime.6b79459575ea1cd143cd.js",
+        "/runtime.cb06698ec15b3c7c49e8.js",
         "/vendors.307bd5c33ab23f183418.js",
-        "/client.2213f73232cf75b8d611.js"
+        "/client.3a266f6433bfcec07518.js"
       ]
     }
   },
@@ -32,7 +32,7 @@
   "icon-search-01-secondary900.png": "/icon-search-01-secondary900-szu.png",
   "icon-trash-02-white.png": "/icon-trash-02-white-6Zv.png",
   "noProductsFound.png": "/noProductsFound-e9n.png",
-  "runtime.js": "/runtime.6b79459575ea1cd143cd.js",
+  "runtime.js": "/runtime.cb06698ec15b3c7c49e8.js",
   "small-banner-bg.png": "/small-banner-bg-ifq.png",
   "storage.svg": "/storage-3S5.svg",
   "vendors.js": "/vendors.307bd5c33ab23f183418.js",
@@ -40,9 +40,9 @@
   "vendors~RootCmp_PRODUCT__default.js": "/vendors~RootCmp_PRODUCT__default.f884f4f0e8349d048b30.js",
   "bundles": {
     "load": [
-      "/runtime.6b79459575ea1cd143cd.js",
+      "/runtime.cb06698ec15b3c7c49e8.js",
       "/vendors.307bd5c33ab23f183418.js",
-      "/client.2213f73232cf75b8d611.js"
+      "/client.3a266f6433bfcec07518.js"
     ],
     "prefetch": [
       "/RootCmp_CATEGORY__default.52b937ec06ef80794178.js",
@@ -59,12 +59,12 @@
     "RootCmp_CMS_PAGE__default": "/RootCmp_CMS_PAGE__default.d2968c0ccdb901496b4e.js",
     "RootCmp_PRODUCT__default": "/RootCmp_PRODUCT__default.6160877ef413d1b744ac.js",
     "RootCmp_SEARCH__default": "/RootCmp_SEARCH__default.dd217b176cbdb8048daf.js",
-    "client": "/client.2213f73232cf75b8d611.js",
+    "client": "/client.3a266f6433bfcec07518.js",
     "i18n-en_US": "/i18n-en_US.e50b5de980674f775a93.js",
     "i18n-ja_JP": "/i18n-ja_JP.9ec21d17cca2111c52f7.js",
     "i18n-vi_VN": "/i18n-vi_VN.8595b7cd4ff5a9216818.js",
     "i18n-zh_CN": "/i18n-zh_CN.92d83fdb86f4c5c78b31.js",
-    "runtime": "/runtime.6b79459575ea1cd143cd.js",
+    "runtime": "/runtime.cb06698ec15b3c7c49e8.js",
     "vendors": "/vendors.307bd5c33ab23f183418.js",
     "vendors~RootCmp_CATEGORY__default~RootCmp_SEARCH__default": "/vendors~RootCmp_CATEGORY__default~RootCmp_SEARCH__default.9d7c96039d89c00e6c1b.js",
     "vendors~RootCmp_PRODUCT__default": "/vendors~RootCmp_PRODUCT__default.f884f4f0e8349d048b30.js"
