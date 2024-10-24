@@ -1,0 +1,92 @@
+{
+  "JP-flow.jpg": "/JP-flow-urD.jpg",
+  "RootCmp_CATEGORY__default.js": "/RootCmp_CATEGORY__default.52b937ec06ef80794178.js",
+  "RootCmp_CMS_PAGE__default.js": "/RootCmp_CMS_PAGE__default.d2968c0ccdb901496b4e.js",
+  "RootCmp_PRODUCT__default.js": "/RootCmp_PRODUCT__default.6160877ef413d1b744ac.js",
+  "RootCmp_SEARCH__default.js": "/RootCmp_SEARCH__default.dd217b176cbdb8048daf.js",
+  "checkbox.svg": "/checkbox-uY5.svg",
+  "checked-2.svg": "/checked-2-avH.svg",
+  "checked.svg": "/checked-2N8.svg",
+  "chevron-down.png": "/chevron-down-fHC.png",
+  "client.js": "/client.2213f73232cf75b8d611.js",
+  "credit-card-payment.svg": "/credit-card-payment-i84.svg",
+  "dg-footer.png": "/dg-footer-tur.png",
+  "entrypoints": {
+    "client": {
+      "js": [
+        "/runtime.6b79459575ea1cd143cd.js",
+        "/vendors.307bd5c33ab23f183418.js",
+        "/client.2213f73232cf75b8d611.js"
+      ]
+    }
+  },
+  "footer-bottom.png": "/footer-bottom-8hc.png",
+  "googleTranslate.png": "/googleTranslate-qMn.png",
+  "homepage-new-bg.png": "/homepage-new-bg-j39.png",
+  "i18n-en_US.js": "/i18n-en_US.e50b5de980674f775a93.js",
+  "i18n-ja_JP.js": "/i18n-ja_JP.9ec21d17cca2111c52f7.js",
+  "i18n-vi_VN.js": "/i18n-vi_VN.8595b7cd4ff5a9216818.js",
+  "i18n-zh_CN.js": "/i18n-zh_CN.92d83fdb86f4c5c78b31.js",
+  "icon-arrow.svg": "/icon-arrow-fvL.svg",
+  "icon-search-01-link700.png": "/icon-search-01-link700-sU5.png",
+  "icon-search-01-secondary900.png": "/icon-search-01-secondary900-szu.png",
+  "icon-trash-02-white.png": "/icon-trash-02-white-6Zv.png",
+  "noProductsFound.png": "/noProductsFound-e9n.png",
+  "runtime.js": "/runtime.6b79459575ea1cd143cd.js",
+  "small-banner-bg.png": "/small-banner-bg-ifq.png",
+  "storage.svg": "/storage-3S5.svg",
+  "vendors.js": "/vendors.307bd5c33ab23f183418.js",
+  "vendors~RootCmp_CATEGORY__default~RootCmp_SEARCH__default.js": "/vendors~RootCmp_CATEGORY__default~RootCmp_SEARCH__default.9d7c96039d89c00e6c1b.js",
+  "vendors~RootCmp_PRODUCT__default.js": "/vendors~RootCmp_PRODUCT__default.f884f4f0e8349d048b30.js",
+  "bundles": {
+    "load": [
+      "/runtime.6b79459575ea1cd143cd.js",
+      "/vendors.307bd5c33ab23f183418.js",
+      "/client.2213f73232cf75b8d611.js"
+    ],
+    "prefetch": [
+      "/RootCmp_CATEGORY__default.52b937ec06ef80794178.js",
+      "/RootCmp_CMS_PAGE__default.d2968c0ccdb901496b4e.js",
+      "/RootCmp_PRODUCT__default.6160877ef413d1b744ac.js",
+      "/RootCmp_SEARCH__default.dd217b176cbdb8048daf.js"
+    ]
+  },
+  "jpg": {
+    "JP-flow": "/JP-flow-urD.jpg"
+  },
+  "js": {
+    "RootCmp_CATEGORY__default": "/RootCmp_CATEGORY__default.52b937ec06ef80794178.js",
+    "RootCmp_CMS_PAGE__default": "/RootCmp_CMS_PAGE__default.d2968c0ccdb901496b4e.js",
+    "RootCmp_PRODUCT__default": "/RootCmp_PRODUCT__default.6160877ef413d1b744ac.js",
+    "RootCmp_SEARCH__default": "/RootCmp_SEARCH__default.dd217b176cbdb8048daf.js",
+    "client": "/client.2213f73232cf75b8d611.js",
+    "i18n-en_US": "/i18n-en_US.e50b5de980674f775a93.js",
+    "i18n-ja_JP": "/i18n-ja_JP.9ec21d17cca2111c52f7.js",
+    "i18n-vi_VN": "/i18n-vi_VN.8595b7cd4ff5a9216818.js",
+    "i18n-zh_CN": "/i18n-zh_CN.92d83fdb86f4c5c78b31.js",
+    "runtime": "/runtime.6b79459575ea1cd143cd.js",
+    "vendors": "/vendors.307bd5c33ab23f183418.js",
+    "vendors~RootCmp_CATEGORY__default~RootCmp_SEARCH__default": "/vendors~RootCmp_CATEGORY__default~RootCmp_SEARCH__default.9d7c96039d89c00e6c1b.js",
+    "vendors~RootCmp_PRODUCT__default": "/vendors~RootCmp_PRODUCT__default.f884f4f0e8349d048b30.js"
+  },
+  "svg": {
+    "checkbox": "/checkbox-uY5.svg",
+    "checked-2": "/checked-2-avH.svg",
+    "checked": "/checked-2N8.svg",
+    "credit-card-payment": "/credit-card-payment-i84.svg",
+    "icon-arrow": "/icon-arrow-fvL.svg",
+    "storage": "/storage-3S5.svg"
+  },
+  "png": {
+    "chevron-down": "/chevron-down-fHC.png",
+    "dg-footer": "/dg-footer-tur.png",
+    "footer-bottom": "/footer-bottom-8hc.png",
+    "googleTranslate": "/googleTranslate-qMn.png",
+    "homepage-new-bg": "/homepage-new-bg-j39.png",
+    "icon-search-01-link700": "/icon-search-01-link700-sU5.png",
+    "icon-search-01-secondary900": "/icon-search-01-secondary900-szu.png",
+    "icon-trash-02-white": "/icon-trash-02-white-6Zv.png",
+    "noProductsFound": "/noProductsFound-e9n.png",
+    "small-banner-bg": "/small-banner-bg-ifq.png"
+  }
+}

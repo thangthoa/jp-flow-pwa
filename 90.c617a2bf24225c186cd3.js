@@ -1,0 +1,17 @@
+/*! @version pwa-studio: 0.0.1, @magento/venia-ui: ~10.3.0, @magento/venia-sample-payments-checkmo: ^0.0.12, @magento/upward-security-headers: ~1.0.14, @magento/pwa-theme-venia: ~1.4.0, @magento/pwa-buildpack: ~11.4.3, @magento/peregrine: ~13.1.1, @magento/pagebuilder: ~8.2.1, @magento/eslint-config: ~1.5.0, @magento/babel-preset-peregrine: ~1.2.3, @apollo/client: ~3.6.9 */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[90],{LYVK:function(t,e,r){"use strict"
+r.r(e),r.d(e,"default",function(){return y})
+var n=r("lSNA"),i=r.n(n),o=r("q1tI"),a=r.n(o),g=r("Tils"),s=r("STEg"),c=r("OBO2"),d=r("y1Xp"),b=r("LboF"),p=r.n(b),l=r("dxx6"),m={injectType:"singletonStyleTag",insert:"head",singleton:!0},u=(p()(l.a,m),l.a.locals||{}),h=r("17x9")
+function ownKeys(t,e){var r=Object.keys(t)
+if(Object.getOwnPropertySymbols){var n=Object.getOwnPropertySymbols(t)
+e&&(n=n.filter(function(e){return Object.getOwnPropertyDescriptor(t,e).enumerable})),r.push.apply(r,n)}return r}function _objectSpread(t){for(var e=1;e<arguments.length;e++){var r=null!=arguments[e]?arguments[e]:{}
+e%2?ownKeys(Object(r),!0).forEach(function(e){i()(t,e,r[e])}):Object.getOwnPropertyDescriptors?Object.defineProperties(t,Object.getOwnPropertyDescriptors(r)):ownKeys(Object(r)).forEach(function(e){Object.defineProperty(t,e,Object.getOwnPropertyDescriptor(r,e))})}return t}const{matchMedia:O}=globalThis,f=t=>{const e=Object(d.a)(u,t.classes),{minHeight:r,verticalAlignment:n,backgroundColor:i,desktopImage:o,mobileImage:b,backgroundSize:p,backgroundPosition:l,backgroundAttachment:m,backgroundRepeat:h="repeat",textAlign:f,border:y,borderColor:j,borderWidth:k,borderRadius:w,marginTop:S,marginRight:x,marginBottom:P,marginLeft:R,mediaQueries:T,paddingTop:v,paddingRight:C,paddingBottom:A,paddingLeft:I,children:L,cssClasses:B=[]}=t,{styles:D}=Object(c.a)({mediaQueries:T})
+let E=o
+b&&O&&O("(max-width: 768px)").matches&&(E=b)
+const K={minHeight:r,verticalAlignment:n,backgroundColor:i,textAlign:f,border:y,borderColor:j,borderWidth:k,borderRadius:w,marginTop:S,marginRight:x,marginBottom:P,marginLeft:R,paddingTop:v,paddingRight:C,paddingBottom:A,paddingLeft:I}
+if(E){const t=Object(s.a)(E,{type:"image-wysiwyg",quality:85})
+K.backgroundImage="url(".concat(t,")"),K.backgroundSize=p,K.backgroundPosition=l,K.backgroundAttachment=m,K.backgroundRepeat=h}return n&&(K.display="flex",K.justifyContent=Object(g.k)(n),K.flexDirection="column"),a.a.createElement("div",{style:_objectSpread(_objectSpread({},K),D),className:[B,e.root].join(" ")},L)}
+f.propTypes={classes:Object(h.shape)({root:h.string}),tabName:h.string,verticalAlignment:Object(h.oneOf)(["top","middle","bottom"]),minHeight:h.string,backgroundColor:h.string,desktopImage:h.string,mobileImage:h.string,backgroundSize:h.string,backgroundPosition:h.string,backgroundAttachment:h.string,backgroundRepeat:h.string,textAlign:h.string,border:h.string,borderColor:h.string,borderWidth:h.string,borderRadius:h.string,marginTop:h.string,marginRight:h.string,marginBottom:h.string,marginLeft:h.string,mediaQueries:Object(h.arrayOf)(Object(h.shape)({media:h.string,style:h.object})),paddingTop:h.string,paddingRight:h.string,paddingBottom:h.string,paddingLeft:h.string,cssClasses:Object(h.arrayOf)(h.string)}
+var y=f},dxx6:function(t,e,r){"use strict"
+var n=r("JPst"),i=r.n(n)()(function(t){return t[1]})
+i.push([t.i,".tabItem-root-CSF {\n    min-height: inherit;\n}\n",""]),i.locals={root:"tabItem-root-CSF"},e.a=i}}])

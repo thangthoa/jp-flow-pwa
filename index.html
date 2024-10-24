@@ -1,0 +1,378 @@
+<!DOCTYPE html><html lang="en-US" data-image-optimizing-origin="auto" data-media-backend="https://dg-m2-odoo-dc1.merket.io/media/"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#C40046"><meta name="robots" content="index, follow"><meta name="google-site-verification" content="W7Twvp7HvBsBqNTUl_LU-H98iKZOetS1_Ss1m1IcTrQ"><link rel="manifest" href="/manifest.json"><link rel="apple-touch-icon" href="/dg-static-assets/icons/dg_57.png"><link rel="apple-touch-icon" sizes="180x180" href="/dg-static-assets/icons/apple-touch-icon.png"><link rel="preconnect" href="https://dg-m2-odoo-dc1.merket.io/"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primereact/10.3.0/resources/primereact.min.css" integrity="sha512-sHmNQOF6Ht0VB933/8QO2V4Y95srbrSZYImCQ64CpaRqIveCp5KCc7Zbzt7LHDTF1/tBHgbdXwN9ggOBtr5Zjg==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primereact/10.3.0/resources/themes/lara-light-indigo/theme.min.css" integrity="sha512-XdAmB058c0aDXhzRnjg/QVmfkCQwkjCZyaxQxvmPNBc50gLwW0R0LXBJfj74A19DtSYQ38jfB3e/Jz3LMQwkUg==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/primeicons/6.0.1/primeicons.min.css" integrity="sha512-c0Y5PGgrf6YXC12zY4vBuSai7jo75U1vhowEhHTb6Hcn4PNv88Ip1fVFkFOhuXtb6qfFHbRvlfOznlgVTlVmUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"><style type="text/css">/* Mulish */
+            /* vietnamese */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 400;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-Regular.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Regular.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Regular.ttf')
+                        format('truetype');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129,
+                    U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            /* latin-ext */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 400;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-Regular.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Regular.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Regular.ttf')
+                        format('truetype');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020,
+                    U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 400;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-Regular.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Regular.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Regular.ttf')
+                        format('truetype');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
+                    U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            /* vietnamese */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 600;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-SemiBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-SemiBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-SemiBold.ttf')
+                        format('truetype');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129,
+                    U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            /* latin-ext */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 600;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-SemiBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-SemiBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-SemiBold.ttf')
+                        format('truetype');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020,
+                    U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 600;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-SemiBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-SemiBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-SemiBold.ttf')
+                        format('truetype');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
+                    U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            /* vietnamese */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 700;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-Bold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Bold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Bold.ttf')
+                        format('truetype');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129,
+                    U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129,
+                    U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            /* latin-ext */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 700;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-Bold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Bold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Bold.ttf')
+                        format('truetype');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020,
+                    U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 700;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-Bold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Bold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-Bold.ttf')
+                        format('truetype');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
+                    U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            /* vietnamese */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 800;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-ExtraBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-ExtraBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-ExtraBold.ttf')
+                        format('truetype');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129,
+                    U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            /* latin-ext */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 800;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-ExtraBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-ExtraBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-ExtraBold.ttf')
+                        format('truetype');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020,
+                    U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+                font-family: 'Mulish';
+                font-weight: 800;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Mulish/Mulish-ExtraBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-ExtraBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Mulish/Mulish-ExtraBold.ttf')
+                        format('truetype');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
+                    U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            /* Nunito */
+            /* vietnamese */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 400;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-Regular.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Regular.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Regular.ttf')
+                        format('truetype');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129,
+                    U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            /* latin-ext */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 400;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-Regular.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Regular.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Regular.ttf')
+                        format('truetype');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020,
+                    U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 400;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-Regular.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Regular.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Regular.ttf')
+                        format('truetype');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
+                    U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            /* vietnamese */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 600;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-SemiBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-SemiBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-SemiBold.ttf')
+                        format('truetype');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129,
+                    U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            /* latin-ext */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 600;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-SemiBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-SemiBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-SemiBold.ttf')
+                        format('truetype');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020,
+                    U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 600;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-SemiBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-SemiBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-SemiBold.ttf')
+                        format('truetype');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
+                    U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            /* vietnamese */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 700;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-Bold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Bold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Bold.ttf')
+                        format('truetype');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129,
+                    U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129,
+                    U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            /* latin-ext */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 700;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-Bold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Bold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Bold.ttf')
+                        format('truetype');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020,
+                    U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 700;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-Bold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Bold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-Bold.ttf')
+                        format('truetype');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
+                    U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+            /* vietnamese */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 800;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-ExtraBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-ExtraBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-ExtraBold.ttf')
+                        format('truetype');
+                unicode-range: U+0102-0103, U+0110-0111, U+0128-0129,
+                    U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            /* latin-ext */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 800;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-ExtraBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-ExtraBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-ExtraBold.ttf')
+                        format('truetype');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020,
+                    U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+                font-family: 'Nunito';
+                font-weight: 800;
+                font-display: swap;
+                font-style: normal;
+                src: url('/dg-static-assets/fonts/Nunito/Nunito-ExtraBold.woff2')
+                        format('woff2'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-ExtraBold.woff')
+                        format('woff'),
+                    url('/dg-static-assets/fonts/Nunito/Nunito-ExtraBold.ttf')
+                        format('truetype');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC,
+                    U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+                    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }</style><script type="text/javascript" async="" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=SnXvQR"></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-BG6VH81698"></script><script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BG6VH81698');</script></head><body class="bg-body font-sans text-base text-colorDefault notranslate"><div id="root"></div><script id="gorgias-chat-widget-install-v3" src="https://config.gorgias.chat/bundle-loader/01J5G847CQBGDDBC9137CAEA4E"></script><script src="/runtime.6b79459575ea1cd143cd.js"></script><script src="/vendors.307bd5c33ab23f183418.js"></script><script src="/client.2213f73232cf75b8d611.js"></script></body></html>

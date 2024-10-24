@@ -1,0 +1,10 @@
+/*! @version pwa-studio: 0.0.1, @magento/venia-ui: ~10.3.0, @magento/venia-sample-payments-checkmo: ^0.0.12, @magento/upward-security-headers: ~1.0.14, @magento/pwa-theme-venia: ~1.4.0, @magento/pwa-buildpack: ~11.4.3, @magento/peregrine: ~13.1.1, @magento/pagebuilder: ~8.2.1, @magento/eslint-config: ~1.5.0, @magento/babel-preset-peregrine: ~1.2.3, @apollo/client: ~3.6.9 */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[88],{"1m22":function(t,r,n){"use strict"
+n.r(r),n.d(r,"default",function(){return f})
+var o=n("q1tI"),i=n.n(o),e=n("LboF"),a=n.n(e),s=n("gseO"),g={injectType:"singletonStyleTag",insert:"head",singleton:!0},d=(a()(s.a,g),s.a.locals||{}),l=n("y1Xp"),m=n("17x9"),p=n("Ty5D"),c=n("6MNj"),h=n("T8Cf")
+const b=t=>({__html:t}),u=t=>{const r=Object(l.a)(d,t.classes),{html:n,textAlign:o,border:e,borderColor:a,borderWidth:s,borderRadius:g,marginTop:m,marginRight:u,marginBottom:f,marginLeft:T,paddingTop:w,paddingRight:k,paddingBottom:y,paddingLeft:R,cssClasses:j=[]}=t,O={textAlign:o,border:e,borderColor:a,borderWidth:s,borderRadius:g,marginTop:m,marginRight:u,marginBottom:f,marginLeft:T,paddingTop:w,paddingRight:k,paddingBottom:y,paddingLeft:R},C=Object(p.useHistory)(),L=t=>{Object(c.a)(C,t)}
+return t.html.includes("search-source")?i.a.createElement(h.a,null):i.a.createElement("div",{style:O,className:[r.root,...j].join(" "),dangerouslySetInnerHTML:b(n),onClick:L,onKeyDown:L,role:"presentation"})}
+u.propTypes={classes:Object(m.shape)({root:m.string}),html:m.string,textAlign:m.string,border:m.string,borderColor:m.string,borderWidth:m.string,borderRadius:m.string,marginTop:m.string,marginRight:m.string,marginBottom:m.string,marginLeft:m.string,paddingTop:m.string,paddingRight:m.string,paddingBottom:m.string,cssClasses:Object(m.arrayOf)(m.string)}
+var f=u},gseO:function(t,r,n){"use strict"
+var o=n("JPst"),i=n.n(o)()(function(t){return t[1]})
+i.push([t.i,".html-root-akk {\n    word-wrap: break-word;\n}\n.html-root-akk img {\n    max-width: 100%;\n}\n",""]),i.locals={root:"html-root-akk"},r.a=i}}])
