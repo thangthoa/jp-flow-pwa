@@ -1,4 +1,4 @@
-/*! @version pwa-studio: 0.0.1, @magento/venia-ui: ~11.6.0, @magento/venia-sample-payments-checkmo: ^0.0.15, @magento/upward-security-headers: ~1.1.17, @magento/pwa-theme-venia: ~2.4.0, @magento/pwa-buildpack: ~11.5.4, @magento/peregrine: ~14.5.1, @magento/pagebuilder: ~9.3.3, @magento/eslint-config: ~1.5.3, @magento/babel-preset-peregrine: ~1.3.3, @apollo/client: ~3.13.1 */
+/*! @version pwa-studio: 0.0.1, @magento/venia-ui: ~10.3.0, @magento/venia-sample-payments-checkmo: ^0.0.12, @magento/upward-security-headers: ~1.0.14, @magento/pwa-theme-venia: ~1.4.0, @magento/pwa-buildpack: ~11.4.3, @magento/peregrine: ~13.1.1, @magento/pagebuilder: ~8.2.1, @magento/eslint-config: ~1.5.0, @magento/babel-preset-peregrine: ~1.2.3, @apollo/client: ~3.6.9 */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[70],{QmiG:function(e,t,n){"use strict"
 n.d(t,"a",function(){return a})
 var r=n("3OKo"),o=n("q1tI")

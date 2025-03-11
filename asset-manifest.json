@@ -14,7 +14,7 @@
   "entrypoints": {
     "client": {
       "js": [
-        "/runtime.7d1e26e6268713ac6725.js",
+        "/runtime.1acdf9d1cff92bb62441.js",
         "/vendors.307bd5c33ab23f183418.js",
         "/client.594bbede139b814f1893.js"
       ]
@@ -32,7 +32,7 @@
   "icon-search-01-secondary900.png": "/icon-search-01-secondary900-szu.png",
   "icon-trash-02-white.png": "/icon-trash-02-white-6Zv.png",
   "noProductsFound.png": "/noProductsFound-e9n.png",
-  "runtime.js": "/runtime.7d1e26e6268713ac6725.js",
+  "runtime.js": "/runtime.1acdf9d1cff92bb62441.js",
   "small-banner-bg.png": "/small-banner-bg-ifq.png",
   "storage.svg": "/storage-3S5.svg",
   "vendors.js": "/vendors.307bd5c33ab23f183418.js",
@@ -40,7 +40,7 @@
   "vendors~RootCmp_PRODUCT__default.js": "/vendors~RootCmp_PRODUCT__default.9622d6c9aac4967ca8f2.js",
   "bundles": {
     "load": [
-      "/runtime.7d1e26e6268713ac6725.js",
+      "/runtime.1acdf9d1cff92bb62441.js",
       "/vendors.307bd5c33ab23f183418.js",
       "/client.594bbede139b814f1893.js"
     ],
@@ -64,7 +64,7 @@
     "i18n-ja_JP": "/i18n-ja_JP.ab04185b7caebb056dfc.js",
     "i18n-vi_VN": "/i18n-vi_VN.6908f13fe670707f6962.js",
     "i18n-zh_CN": "/i18n-zh_CN.8b068c66c86a6b59e824.js",
-    "runtime": "/runtime.7d1e26e6268713ac6725.js",
+    "runtime": "/runtime.1acdf9d1cff92bb62441.js",
     "vendors": "/vendors.307bd5c33ab23f183418.js",
     "vendors~RootCmp_CATEGORY__default~RootCmp_SEARCH__default": "/vendors~RootCmp_CATEGORY__default~RootCmp_SEARCH__default.9d7c96039d89c00e6c1b.js",
     "vendors~RootCmp_PRODUCT__default": "/vendors~RootCmp_PRODUCT__default.9622d6c9aac4967ca8f2.js"

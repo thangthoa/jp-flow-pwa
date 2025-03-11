@@ -1,4 +1,4 @@
-/*! @version pwa-studio: 0.0.1, @magento/venia-ui: ~11.6.0, @magento/venia-sample-payments-checkmo: ^0.0.15, @magento/upward-security-headers: ~1.1.17, @magento/pwa-theme-venia: ~2.4.0, @magento/pwa-buildpack: ~11.5.4, @magento/peregrine: ~14.5.1, @magento/pagebuilder: ~9.3.3, @magento/eslint-config: ~1.5.3, @magento/babel-preset-peregrine: ~1.3.3, @apollo/client: ~3.13.1 */
+/*! @version pwa-studio: 0.0.1, @magento/venia-ui: ~10.3.0, @magento/venia-sample-payments-checkmo: ^0.0.12, @magento/upward-security-headers: ~1.0.14, @magento/pwa-theme-venia: ~1.4.0, @magento/pwa-buildpack: ~11.4.3, @magento/peregrine: ~13.1.1, @magento/pagebuilder: ~8.2.1, @magento/eslint-config: ~1.5.0, @magento/babel-preset-peregrine: ~1.2.3, @apollo/client: ~3.6.9 */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[57],{"0Fil":function(e,t,r){"use strict"
 r.d(t,"a",function(){return c}),r.d(t,"e",function(){return u}),r.d(t,"c",function(){return m}),r.d(t,"g",function(){return p}),r.d(t,"b",function(){return g}),r.d(t,"d",function(){return b}),r.d(t,"f",function(){return y})
 var n=r("lSNA"),a=r.n(n),o=r("QILm"),i=r.n(o)
